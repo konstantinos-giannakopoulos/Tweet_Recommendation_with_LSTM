@@ -1,0 +1,22 @@
+深水埗:Sham Shui Po District
+東區:Eastern District
+香港:Hong Kong
+中西區:Central & Western District
+元朗:Yuen Long District
+油尖旺:Yau Tsim Mong District
+广东:Guangdong
+葵青:Kwai Tsing District
+西貢:Sai Kung District
+中华人民共和国:People's Republic of China
+九龍城:Kowloon City District
+大埔:Tai Po District
+離島:Islands District
+灣仔:Wan Chai District
+荃灣:Tsuen Wan District
+北區:North District
+南區:Southern District
+觀塘:Kwun Tong District
+黃大仙:Wong Tai Sin District
+屯門:Tuen Mun District
+沙田:Sha Tin District
+广州:Cantón
