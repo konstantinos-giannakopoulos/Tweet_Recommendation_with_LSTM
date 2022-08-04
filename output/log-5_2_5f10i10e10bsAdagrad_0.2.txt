@@ -1,0 +1,243 @@
+
+
+--- Experimental Set Up ---
+
+Number of features:  5
+Number of iterations:  10
+Length of window (in days):  5
+Ratio of positive_datapoints/negative_samples:  1.0
+Filtering-out input tweets (boolean 1:yes, 0:no):  1
+Threshold for filtering-out input tweets:  2
+LSTM number of epochs:  10
+LSTM batch size:  10
+LSTM validation split:  0.2
+LSTM optimizer:  adagrad
+--- ------------------- ---
+
+-----
+Window ID: 1
+Time Period:  Mon Dec 21 03:23:54 GMT+08:00 2015  -  Sat Dec 26 03:22:21 GMT+08:00 2015
+Number of tweets: 12704
+Number of tweets after filtering: 9682
+Number of users: 998
+Number of Positive datapoints: 10268
+Number of Negative datapoints: 5989
+Accuracy: 67.6199261919%
+             precision    recall  f1-score   support
+
+          0       0.72      0.20      0.31      1198
+          1       0.67      0.96      0.79      2054
+
+avg / total       0.69      0.68      0.61      3252
+
+Time Elapsed: 143.5143849849701 sec
+
+
+-----
+Window ID: 2
+Time Period:  Sat Dec 26 03:30:13 GMT+08:00 2015  -  Thu Dec 31 03:27:14 GMT+08:00 2015
+Number of tweets: 12918
+Number of tweets after filtering: 9791
+Number of users: 978
+Number of Positive datapoints: 10159
+Number of Negative datapoints: 7214
+Accuracy: 73.9280575694%
+             precision    recall  f1-score   support
+
+          0       0.72      0.61      0.66      1443
+          1       0.75      0.83      0.79      2032
+
+avg / total       0.74      0.74      0.74      3475
+
+Time Elapsed: 150.21788001060486 sec
+
+
+-----
+Window ID: 3
+Time Period:  Thu Dec 31 03:32:34 GMT+08:00 2015  -  Tue Jan 05 03:31:22 GMT+08:00 2016
+Number of tweets: 12323
+Number of tweets after filtering: 8983
+Number of users: 897
+Number of Positive datapoints: 9304
+Number of Negative datapoints: 7548
+Accuracy: 73.3610204758%
+             precision    recall  f1-score   support
+
+          0       0.72      0.66      0.69      1510
+          1       0.74      0.79      0.77      1861
+
+avg / total       0.73      0.73      0.73      3371
+
+Time Elapsed: 132.47171998023987 sec
+
+
+-----
+Window ID: 4
+Time Period:  Tue Jan 05 03:40:13 GMT+08:00 2016  -  Sat Jan 09 17:22:19 GMT+08:00 2016
+Number of tweets: 10565
+Number of tweets after filtering: 7681
+Number of users: 724
+Number of Positive datapoints: 8107
+Number of Negative datapoints: 8008
+Accuracy: 78.1637716974%
+             precision    recall  f1-score   support
+
+          0       0.80      0.75      0.77      1602
+          1       0.77      0.81      0.79      1622
+
+avg / total       0.78      0.78      0.78      3224
+
+Time Elapsed: 115.2138340473175 sec
+
+
+-----
+Window ID: 5
+Time Period:  Mon Jan 11 03:01:08 GMT+08:00 2016  -  Sat Jan 16 03:00:20 GMT+08:00 2016
+Number of tweets: 9648
+Number of tweets after filtering: 6822
+Number of users: 701
+Number of Positive datapoints: 7381
+Number of Negative datapoints: 10515
+Accuracy: 61.1173184291%
+             precision    recall  f1-score   support
+
+          0       0.66      0.71      0.68      2103
+          1       0.53      0.47      0.50      1477
+
+avg / total       0.60      0.61      0.61      3580
+
+Time Elapsed: 120.72392797470093 sec
+
+
+-----
+Window ID: 6
+Time Period:  Sat Jan 16 03:01:15 GMT+08:00 2016  -  Thu Jan 21 03:00:20 GMT+08:00 2016
+Number of tweets: 10544
+Number of tweets after filtering: 7679
+Number of users: 742
+Number of Positive datapoints: 8158
+Number of Negative datapoints: 4842
+Accuracy: 63.1680123098%
+             precision    recall  f1-score   support
+
+          0       0.51      0.28      0.36       969
+          1       0.66      0.84      0.74      1632
+
+avg / total       0.61      0.63      0.60      2601
+
+Time Elapsed: 106.53814506530762 sec
+
+
+-----
+Window ID: 7
+Time Period:  Thu Jan 21 03:09:41 GMT+08:00 2016  -  Tue Jan 26 03:09:38 GMT+08:00 2016
+Number of tweets: 11817
+Number of tweets after filtering: 8767
+Number of users: 866
+Number of Positive datapoints: 9447
+Number of Negative datapoints: 10187
+Accuracy: 55.8553971365%
+             precision    recall  f1-score   support
+
+          0       0.64      0.35      0.45      2038
+          1       0.53      0.79      0.63      1890
+
+avg / total       0.58      0.56      0.54      3928
+
+Time Elapsed: 141.49177598953247 sec
+
+
+-----
+Window ID: 8
+Time Period:  Tue Jan 26 03:09:58 GMT+08:00 2016  -  Sun Jan 31 03:07:46 GMT+08:00 2016
+Number of tweets: 11408
+Number of tweets after filtering: 8501
+Number of users: 865
+Number of Positive datapoints: 9237
+Number of Negative datapoints: 10154
+Accuracy: 45.9654550165%
+             precision    recall  f1-score   support
+
+          0       0.48      0.46      0.47      2031
+          1       0.44      0.46      0.45      1848
+
+avg / total       0.46      0.46      0.46      3879
+
+Time Elapsed: 159.95596194267273 sec
+
+
+-----
+Window ID: 9
+Time Period:  Sun Jan 31 03:10:27 GMT+08:00 2016  -  Fri Feb 05 03:10:20 GMT+08:00 2016
+Number of tweets: 10333
+Number of tweets after filtering: 7433
+Number of users: 733
+Number of Positive datapoints: 8093
+Number of Negative datapoints: 9826
+Accuracy: 53.6959553696%
+             precision    recall  f1-score   support
+
+          0       0.57      0.65      0.61      1966
+          1       0.48      0.40      0.44      1619
+
+avg / total       0.53      0.54      0.53      3585
+
+Time Elapsed: 128.76657795906067 sec
+
+
+-----
+Window ID: 10
+Time Period:  Fri Feb 05 03:10:34 GMT+08:00 2016  -  Wed Feb 10 03:09:04 GMT+08:00 2016
+Number of tweets: 12466
+Number of tweets after filtering: 9651
+Number of users: 797
+Number of Positive datapoints: 10349
+Number of Negative datapoints: 7848
+Accuracy: 64.5329670199%
+             precision    recall  f1-score   support
+
+          0       0.67      0.35      0.46      1570
+          1       0.64      0.87      0.74      2070
+
+avg / total       0.65      0.65      0.62      3640
+
+Time Elapsed: 135.67386603355408 sec
+
+
+-----
+Window ID: 11
+Time Period:  Wed Feb 10 03:12:16 GMT+08:00 2016  -  Mon Feb 15 03:04:31 GMT+08:00 2016
+Number of tweets: 13398
+Number of tweets after filtering: 10605
+Number of users: 835
+Number of Positive datapoints: 11473
+Number of Negative datapoints: 9122
+Accuracy: 63.6893203883%
+             precision    recall  f1-score   support
+
+          0       0.63      0.44      0.52      1825
+          1       0.64      0.79      0.71      2295
+
+avg / total       0.64      0.64      0.62      4120
+
+Time Elapsed: 151.0062038898468 sec
+
+
+-----
+Window ID: 12
+Time Period:  Mon Feb 15 03:13:38 GMT+08:00 2016  -  Sat Feb 20 03:11:56 GMT+08:00 2016
+Number of tweets: 11944
+Number of tweets after filtering: 9109
+Number of users: 798
+Number of Positive datapoints: 9914
+Number of Negative datapoints: 12390
+Accuracy: 63.9991033407%
+             precision    recall  f1-score   support
+
+          0       0.71      0.60      0.65      2478
+          1       0.58      0.69      0.63      1983
+
+avg / total       0.65      0.64      0.64      4461
+
+Time Elapsed: 162.3655879497528 sec
+
